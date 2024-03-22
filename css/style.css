@@ -1,0 +1,310 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* common css */
+.flex{
+    display: flex;
+
+}
+.containar{
+    width: 80%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+                            /* Css nav start */
+                        #nav ul{
+                            list-style-type: none;
+                        }
+
+                        #nav li a{
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            font-weight: 800;
+                            padding: 22px;
+                            color: #ffff;
+                            transition: 0.6s;
+
+                        }
+                        #nav #main-div{
+                            justify-content: space-between;
+                            background-color: #02918c;
+
+                        }
+                        #nav{
+                            background-color: #02918c;
+                            height: 62px;
+
+                        }
+                        #nav ul li a:hover{
+                            color: black;
+                            background-color: #cfc91d;
+
+                        }
+                        /* Css nav end */
+                        
+                        
+                        /* css 1 section start */
+                        
+                        
+                        
+                        #banner{
+                            height: 728px;
+                           
+                            color: white;
+                            display: flex;
+                            position: relative;
+                           
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                             z-index: 1;
+                             
+                               
+                          }
+                          #banner::before{
+                            content:"";
+                            position: absolute;
+                            background: rgba(0,0 ,0 , 0.66);
+                            z-index: -1;
+                            inset: 0;
+                          }
+                          #banner h3{
+                                  font-size: 30px;
+                                  line-height: 25px;
+                                  font-weight: 400;
+                                  padding: 20px;
+                                  
+                          
+                          }
+                          #banner h1{
+                              font-size: 68px;
+                              line-height: 75px;
+                              text-transform: uppercase;
+                              font-weight: 800;
+                              letter-spacing: 30px;
+                          
+                          }
+                          #banner p{
+                              font-size: 18px;
+                              line-height: 33px;
+                              font-weight: 400;
+                              padding: 20px;
+                          
+                          }
+                          #banner img{
+                              display: block;
+                              margin: auto;
+                          }
+                          #banner a{
+                             color: black;
+                             background-color: #cfc91d;
+                             border: 1.9px solid #686de0;
+                             margin: 20px;
+                             padding:15px;  
+
+                          }
+                          #banner a:hover{
+                              color: aliceblue;
+                              background-color: #02918c;
+                          }
+                        
+                        /* css 1 section end */
+                        
+                        
+                        /* css 2nd section  */
+                        #section #about-card-info{
+                            padding: 0 100PX;
+                        }
+                        #about-card-info h2{
+                            color: #02918c;
+                            font-size: 46px;
+                            font-weight: 800;
+                            text-transform: uppercase;
+                            padding-top: 99px;
+                            
+                            
+                        }
+                        #about-card-info p{
+                            
+                            font-size: 16px;
+                            line-height: 41px;
+                            opacity: 0.6;
+                        }
+                        #section #about-card-info p b{
+                            font-size: 23px;
+                            line-height: 41px ;
+                        }
+                        #section .bg4  {
+                            border-right: 1px solid #d9dbdb;
+                            padding: 50px;
+                            margin-top: 86px;
+                            margin-bottom: 100px;
+                        }
+                            
+                        #section .bg4 h3 {
+                                font-size: 16px;
+                                line-height: 23px;
+                                opacity: 0.6;
+
+
+                        }
+                        #section .bg4 p{
+                            font-size: 11px;
+                            line-height: 21px;
+                            opacity: 0.6;
+                        }
+
+
+
+
+                /* css 2nd section end */
+
+                /* css 3rd section  */
+                #number3sec{
+                  background-image: url(../img/3rdnobg.jpg);
+                  width: 100%;
+                  height: 729px;
+                  background-size: cover;
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                }
+                #number3sec h2{
+                    color: #02918c;
+                    font-size: 46px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    padding-top: 99px;
+                }
+                #number3sec p{
+                    font-size: 16px;
+                    line-height: 41px;
+                    opacity: 0.6;
+                    margin-bottom: 52px;
+                }
+                .half1{
+                    width: 50%;
+
+                }
+                .half2{
+                    width: 50%;
+
+                }
+                .half1 .div1 h3{
+                    font-size: 16px;
+                                line-height: 23px;
+                                opacity: 0.6;
+                                padding-right: 10px;
+                                padding-left: 10px;
+                }
+                .half1 .div1 p{
+                    font-size: 11px;
+                    line-height: 21px;
+                    opacity: 0.6;
+                    padding-right: 10px;
+                                padding-left: 10px;
+                }
+                .half1 #div2 h3{
+                    font-size: 16px;
+                                line-height: 23px;
+                                opacity: 0.6;
+                                padding-right: 10px;
+                                padding-left: 10px;
+                }
+                .half1 #div2 p{
+                    font-size: 11px;
+                    line-height: 21px;
+                    opacity: 0.6;
+                    padding-right: 10px;
+                                padding-left: 10px;
+                }
+
+                
+
+
+
+                /* css 3rd section end */
+               /* css 4th section */
+               #four1 #four2{
+                   padding: 0 180px;
+                }
+                #four1 h2{
+                    color: #02918c;
+                    font-size: 46px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    padding-top: 99px;
+                    margin-bottom: 30px;
+                    
+                }
+                #four1 small{
+                    color: #7e8287;
+                    font-size: 16px;
+                }
+                #four1 p{ font-size: 16px;
+                    line-height: 41px;
+                    opacity: 0.6;
+                    padding: 20px;
+                padding-bottom: 81px;}
+                    /* css 4th section end*/
+
+                    /* css 5th section */
+                    
+                    #imgmaintop2{
+                       flex-wrap: wrap;
+                       
+                    }
+
+                   #imgmaintop2 .sameitem{
+                        width: 25%;
+                        display: inline-block;
+                    }
+                 
+                    /* css 5th section end */
+
+
+
+                #lastpor{
+                    height: 569px;
+                    background-color: #0b0b0b;
+                    font-size: 16px;
+                    color: #7e8287;
+                    
+                }  
+              
+                
+            
+                #lastpor p{
+                    padding: 38px;
+                    border-bottom: 1px solid #7e8287 ;
+                    
+                }
+                #lastpor a{
+                    border: 0.5px white solid;
+                    padding: 20px;
+                    color: #0b1016;
+                    font-size: 14px;
+                    background-color: #cfc91d;
+                    letter-spacing: 2px;
+                    font-weight: 800;
+                    transition: 0.6s;
+                }
+                #lastpor a:hover{
+                    color: white;
+                    background-color: #02918c;
+                }
+#born{
+    background-color: black;
+ height: 70px;
+ color: aliceblue;
+ padding: 21px;
+}
